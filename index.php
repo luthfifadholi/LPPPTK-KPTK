@@ -1,38 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>KPTK - Home</title>
+	<title>Beranda | LPPPTK KPTK</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script> -->
-
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.js"></script>
-    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
-  <!-- <link rel="stylesheet" type="text/css" href="assets/plugins/creative/css/creative.css"> -->
-  <!-- <link rel="stylesheet" type="text/css" href="assets/plugins/creative/css/creative.min.css"> -->
-    <style>
-        /* Make the image fully responsive */
-        .carousel-inner img {
-            width: 100%;
-            height: 50vh;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="assets/css/base.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
 </head>
 <body>
-	<!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">KPTK</a>
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <img src="assets/images/logo-kemendikbud.png" class="company-logo">
+            </a>
             <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="">Beranda</a>
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="index.php">Beranda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="">Profil Lembaga</a>
@@ -47,7 +35,6 @@
             </div>
         </div>
     </nav>
-
     <div id="demo" class="carousel slide" data-ride="carousel">
 
         <!-- Indicators -->
@@ -96,7 +83,7 @@
             <div class="section-wrapper">
                 <div class="row">
                     <div class="description col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                        <h3>Tentang Instansi</h3>
+                        <h3>Tentang LPPTK KPTK</h3>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                             tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -128,7 +115,7 @@
                                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                                 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo</p>
-                                <a href="#" class="read-more-btn">Selengkapnya</a>
+                                <a href="pages/detail_artikel.php" class="read-more-btn">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -197,28 +184,74 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
                 <div class="read-all-section">
-                <a href="" class="read-all-btn">Lihat Semua</a>
+                    <a href="" class="read-all-btn">Lihat Semua</a>
                 </div>
             </div>
         </div>
         <div class="bottom-logo">
             <div class="section-wrapper">
-                <div class="row">
-                    <div class="col-lg-2 col-md- ">
-                        jjhjhjhj
+                <!-- <div> -->
+                <div class="row kotak">
+                    <div class="col-lg-2 col-md-3">
+                        <img src="assets/images/dummy-square-png.png">
                     </div>
-                    <div class="col-lg-2 col-md- ">
-                        jjhjhjhj
+                    <div class="col-lg-2 col-md-3">
+                        <img src="assets/images/dummy-square-png.png">
                     </div>
-                    
+                    <div class="col-lg-2 col-md-3">
+                        <img src="assets/images/dummy-square-png.png">
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <img src="assets/images/dummy-square-png.png">
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <img src="assets/images/dummy-square-png.png">
+                    </div>
+                    <div class="col-lg-2 col-md-3">
+                        <img src="assets/images/dummy-square-png.png">
+                    </div>
                 </div>
+                <!-- </div> -->
             </div>
         </div>
     </section>
+    <footer>
+        <div class="section-wrapper">
+            <div class="row">
+                <div class="social-media col-lg-2">
+                    <strong>Media Sosial</strong>
+                </div>
+                <div class="navigation-list col-lg-2">
+                    <strong>Navigation</strong>
+                    <ul>
+                        <li><a href="">Beranda</a></li>
+                        <li><a href="">Profil Lembaga</a></li>
+                        <li><a href="">Struktur Organisasi</a></li>
+                        <li><a href="">Artikel</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <!-- <script type="text/javascript" src="assets/plugins/creative/js/creative.js"></script> -->
-    <!-- <script type="text/javascript" src="assets/plugins/creative/js/creative.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function () {
+            if ($(window).scrollTop() >= 50) {
+                $('.navbar').css('background','#2a6496');
+            } else {
+                $('.navbar').css('background','transparent');
+            }
+        });
+    </script>
 </body>
 </html>

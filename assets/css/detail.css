@@ -1,0 +1,130 @@
+.header-section {
+    width:100%;
+    height:45vh;
+    background-image:url('../images/books.jpg');
+    background-size:cover;
+    margin-top: -20px;
+    position: relative;
+}
+
+.header-caption {
+    font-family: OpenSans;
+    font-size: 36px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.layer{
+    background-image: linear-gradient(to bottom, #2a6496 28%, #7daad1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+}
+
+section{
+    background-color: #fff;
+    padding: 100px 0;
+    font-family: OpenSans;
+}
+
+.article-section img{
+    width: 100%;
+}
+
+.article-section span{
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 3.03;
+    letter-spacing: normal;
+    text-align: left;
+    color: #888888;
+    margin-right: 35px;
+}
+
+.article-section i{
+    color: #000;
+}
+
+.article-section p{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+}
+
+.right-box{
+    border: solid 2px #ebebeb;
+    padding: 25px;
+    margin-bottom: 36px;
+    font-family: OpenSans;
+}
+
+.right-box strong{
+    /*border-bottom: 4px solid #2a6496;*/
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    /*margin-bottom: 30px;*/
+}
+
+.line hr{
+    border: 2px solid #2a6496;
+    width: 52px;
+    margin: 0 0 25px 0;
+}
+
+.clear{
+    clear: both;
+}
+
+.last-article .last-category-container{
+    margin-bottom: 25px;
+}
+
+.last-article .last-article-category{
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b4b64;
+}
+
+.last-article .last-article-title{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2b4b64;
+}
+
+.last-article .last-article-title:hover{
+    text-decoration: none;
+    color: #7f93a2;
+}
